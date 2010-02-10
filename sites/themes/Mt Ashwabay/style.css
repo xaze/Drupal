@@ -1,0 +1,327 @@
+body {
+	font-family: 'Optima', Candara, Trebuchet ;
+	color: black;
+	background: url(headerbg.jpg) repeat-x;
+}
+
+#donate {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+
+a {
+	text-decoration: none;
+	color: #00778d;
+}
+
+hr {
+	border: 0 #ccc solid;
+	border-top-width: 1px;
+	clear: both;
+	height: 0
+}
+
+h1 {
+	font-size: 25px;
+	color: #00778d;
+}
+
+h2 {
+	font-size: 23px;
+	color: #00778d;
+}
+
+h3 {
+	font-size: 21px;
+	color: #00778d;
+}
+
+h4 {
+	font-size: 19px;
+	color: #00778d;
+}
+
+h5 {
+	font-size: 17px;
+	color: #00778d;
+}
+
+h6 {
+	font-size: 15px;
+	color: #00778d;
+}
+
+ol {
+	list-style: decimal
+}
+
+ul {
+	list-style: disc
+}
+
+p, dl, hr, h1, h2, h3, h4, h5, h6, pre, table, address, fieldset {
+	margin-bottom: 20px;
+}
+
+#nav {
+	background-color: #ff9000;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	text-align: center;
+	background-image: url(navbg.png);
+	background-repeat: repeat-x;
+}
+
+#nav li a {
+	list-style-type: none;
+	display: inline-block;
+	text-decoration: none;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: .9em;
+	color: #FFF;
+	padding-right: 15px;
+	padding-left: 15px;
+	list-style-position: inside;
+}
+
+#nav li a:hover {
+	text-decoration: underline;
+}
+
+#footer {
+	background-color: #8ac3d0;
+}
+
+#logo {
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 5px;
+}
+
+#slideshow {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.bb {
+	border: 2px solid #dfeff2;
+	padding: 5px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	margin-right: 3px;
+	margin-left: 3px;
+	margin-bottom: 20px;
+	height: 175px;
+}
+
+.foot {
+	font-size: 80%;
+	color: #00778d;
+}
+
+.foot h2 {
+	margin-bottom: 0px;
+}
+
+.foot li {
+	list-style-type: none;
+}
+
+#tickets {
+	padding-top: 5px;
+	font-size: 70%;
+}
+
+.block small {
+	display: none;
+}
+
+#weather-text {
+	font-size: 80%;
+}
+
+.footlink {
+	font-size: 90%;
+}
+
+.footlink a {
+	color: #00778d;
+	text-decoration: none;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.footlink a:hover {
+	color: #00778d;
+	text-decoration: underline;
+}
+
+.cart-block-icon-full {
+	display: none;
+}
+
+cart-block-title-bar {
+	display: none;
+}
+
+ucCollapseBlock-processed {
+	display: none;
+}
+
+cart-block-toggle {
+	display: none;
+}
+
+.cart-block-summary-items {
+	width: 25px;
+	text-align: right;
+}
+
+.cart-block-summary-total {
+	width: 25px;
+}
+
+.block-weather {
+	font-size: 90%;
+}
+
+.category-products {
+	background-color: white;
+}
+
+td.active {
+	background-color: white;
+	padding: 5px;
+}
+
+td {
+	background-color: white;
+}
+
+.cart-block-summary td {
+	background-color: transparent;
+}
+
+.cart-block-summary-links ul.links li {
+	border-right: 0px solid;
+	padding: 0 1em 0 0.75em;
+}
+
+.cart-block-summary-total {
+	width: 80px;
+}
+
+.cart-block-summary-items {
+	display: table-cell;
+	width: 150px;
+}
+
+.cart-block-view-cart {
+	display: table-cell;
+	width: 150px;
+}
+
+.cart-block-checkout {
+	display: table-cell;
+	width: 150px;
+}
+
+li.views-fluid-grid-item {
+	margin-top: 10px;
+	background-color: #fff;
+	border: none;
+	vertical-align: middle;
+}
+
+.slideshowdiv {
+	height: 450px;
+	width: 900px;
+	float: left;
+	position: relative;
+}
+
+.overlay {
+	height: 100px;
+	width: 900px;
+	overflow: hidden;
+	z-index: 1;
+	top: 350px;
+	left: 0;
+	position: absolute;
+	background: url(black80.png) repeat;
+}
+
+.overlay h1 {
+	padding: 15px;
+	color: #fff;
+}
+
+.overlay p {
+	padding: 15px;
+	color: #fff;
+}
+
+#localweather {
+	text-align: center;
+}
+
+.footlink li {
+	display: block;
+}
+
+.views-rotator-simpleviews_4-page {
+	padding: 20px;
+}
+
+.view-calendar-date {
+	font-size: 80%;
+}
+.views-field-sell-price{
+	padding-left: 20px;
+}
+.views-field-title  th {
+	display:none;
+}
+.views-field-sell-price th {
+	display:none;
+}
+
+.views-field-addtocartlink th {
+	display:none;
+}
+ul.sf-menu{
+	list-style-type: none;
+	list-style-image: none;
+	list-style-position: inside;
+	text-align: center;
+}
+li.leaf {
+	list-style-type: none;
+	list-style-image: none;
+	list-style-position: inside;
+}
+li.expanded {
+		list-style-type: none;
+	list-style-image: none;
+	list-style-position: inside;
+}
+#nav ul{
+	text-align: center;
+}
+#conditions  {
+	font-size: .8em;
+}
+#conditions h2 {
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	font-size: 1.1em;
+	padding-top: .5em;
+}
+.emvideo-thumbnail-replacement span {
+	display: none;
+}
+h2 a { display: none;}
+
